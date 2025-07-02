@@ -1,59 +1,167 @@
-
 const Portfolio = () => {
   const projects = [
     {
+      id: 17,
+      name: 'Voting Master App',
+      description: 'Mobile voting app with Firebase backend.',
+      images: ['/master1.png', '/master2.png', '/master3.png', '/master4.png'],
+      technologies: ['Android Studio', 'Java', 'XML', 'Firebase', 'Kotlin'],
+      github: 'https://github.com/Kopanomothlaka/Voting-Master-App'
+    },
+    {
+      id: 19,
+      name: 'Mall of the North Manager App',
+      description: 'Retail operations manager app for Mall of the North.',
+      images: ['/north1.png', '/north2.png', '/north3.png', '/north4.png'],
+      technologies: ['Android Studio', 'Java', 'XML', 'Firebase', 'Kotlin'],
+      github: 'https://github.com/Kopanomothlaka/Kay-Mall-Manager-App'
+    },
+    {
       id: 1,
-      name: 'E-Commerce Platform',
-      description: 'A full-featured e-commerce platform with advanced inventory management, payment processing, and analytics dashboard.',
-      image: 'https://images.unsplash.com/photo-1605810230434-7631ac76ec81?w=800&h=600&fit=crop',
-      technologies: ['React', 'Node.js', 'MongoDB', 'Stripe', 'AWS'],
-      client: 'RetailMax Solutions',
-      feedback: 'Increased online sales by 250% within the first quarter'
+      name: 'Forex Robot',
+      description: 'A trading bot leveraging Python for market analysis and MetaTrader 5 (MT5) for execution.',
+      image: 'https://images.unsplash.com/photo-1461749280684-dccba630e2f6?w=800&h=600&fit=crop',
+      technologies: ['Python', 'MT5'],
+      github: 'https://github.com/Kopanomothlaka/Forex-Robot'
     },
     {
       id: 2,
-      name: 'Healthcare Management System',
-      description: 'Comprehensive healthcare management system with patient records, appointment scheduling, and telemedicine capabilities.',
+      name: 'University of Limpopo SRC Voting System',
+      description: 'Secure digital voting system designed for student elections.',
       image: 'https://images.unsplash.com/photo-1486312338219-ce68d2c6f44d?w=800&h=600&fit=crop',
-      technologies: ['React', 'Python', 'PostgreSQL', 'Docker', 'Azure'],
-      client: 'MedCare Plus',
-      feedback: 'Streamlined our operations and improved patient satisfaction significantly'
+      technologies: ['Laravel', 'HTML', 'CSS', 'JavaScript', 'Blade', 'PHP'],
+      github: 'https://github.com/Kopanomothlaka/SRC-Voting-System'
     },
     {
       id: 3,
-      name: 'FinTech Mobile App',
-      description: 'Secure mobile banking application with biometric authentication, real-time transactions, and AI-powered financial insights.',
-      image: 'https://images.unsplash.com/photo-1498050108023-c5249f4df085?w=800&h=600&fit=crop',
-      technologies: ['React Native', 'Node.js', 'Redis', 'AI/ML', 'Blockchain'],
-      client: 'SecureBank Digital',
-      feedback: 'Our customers love the intuitive interface and security features'
+      name: 'UNISA SRC Voting System',
+      description: 'Firebase-based voting platform built using web technologies.',
+      image: '/444287873-a62a663c-b21f-48fa-88d3-cb9bf86517de.png',
+      technologies: ['HTML', 'CSS', 'JavaScript', 'Firebase'],
+      github: 'https://github.com/Kopanomothlaka/UNISA-SRC-Voting-System'
     },
     {
       id: 4,
-      name: 'IoT Dashboard',
-      description: 'Real-time IoT monitoring dashboard for industrial equipment with predictive maintenance and analytics.',
-      image: 'https://images.unsplash.com/photo-1518770660439-4636190af475?w=800&h=600&fit=crop',
-      technologies: ['Vue.js', 'Python', 'InfluxDB', 'Grafana', 'MQTT'],
-      client: 'Industrial Systems Corp',
-      feedback: 'Reduced equipment downtime by 40% through predictive analytics'
+      name: 'Aviator Predictor',
+      description: 'A predictive model for Aviator games using Python.',
+      image: '/avaitor.png',
+      technologies: ['HTML', 'CSS', 'Python', 'Betway App'],
+      github: 'https://github.com/Kopanomothlaka/Aviator-Predictor'
     },
     {
       id: 5,
-      name: 'AI Content Platform',
-      description: 'AI-powered content creation and management platform with automated SEO optimization and social media scheduling.',
-      image: 'https://images.unsplash.com/photo-1461749280684-dccba630e2f6?w=800&h=600&fit=crop',
-      technologies: ['Next.js', 'OpenAI', 'Prisma', 'Vercel', 'TypeScript'],
-      client: 'ContentMax Agency',
-      feedback: 'Transformed our content workflow and doubled our productivity'
+      name: 'Mokopane Agent Forensic',
+      description: 'Digital forensic website for investigative purposes.',
+      image: '/agent.png',
+      technologies: ['HTML', 'CSS', 'JavaScript'],
+      github: 'https://github.com/Kopanomothlaka/AGENT-MC-Forensic-Website'
     },
     {
       id: 6,
-      name: 'Drone Fleet Management',
-      description: 'Comprehensive drone fleet management system with real-time tracking, mission planning, and data analytics.',
-      image: 'https://images.unsplash.com/photo-1487887235947-a955ef187fcc?w=800&h=600&fit=crop',
-      technologies: ['React', 'Node.js', 'PostgreSQL', 'Maps API', 'WebSocket'],
-      client: 'AeroSurvey Pro',
-      feedback: 'Increased operational efficiency and reduced mission planning time by 60%'
+      name: 'KayTechnologies Website',
+      description: 'Business website showcasing tech services.',
+      image: '/kay.png',
+      technologies: ['HTML', 'CSS', 'JavaScript'],
+      github: 'https://github.com/Kopanomothlaka/KayTech'
+    },
+    {
+      id: 7,
+      name: 'Grocery Budget Tracker',
+      description: 'Helps users track grocery expenses efficiently.',
+      image: '/grocery.png',
+      technologies: ['HTML', 'CSS', 'JavaScript'],
+      github: 'https://github.com/Kopanomothlaka/Grocery-Budget-Tracker'
+    },
+    {
+      id: 8,
+      name: 'Nike Sales Dashboard',
+      description: 'Power BI dashboard for analyzing Nike sales performance.',
+      image: '/nikedash.png',
+      technologies: ['Power BI', 'DAX', 'Python', 'SQL'],
+      github: 'https://github.com/Kopanomothlaka/Nike-Sales-Performance-Power-BI-Dashboard'
+    },
+    {
+      id: 9,
+      name: 'University of Limpopo Student Solution',
+      description: 'Student support system for managing various services.',
+      image: '/ulstuent solution.png',
+      technologies: ['Laravel', 'HTML', 'CSS', 'JavaScript', 'Blade', 'PHP'],
+      github: 'https://github.com/Kopanomothlaka/UL_Student_Solution'
+    },
+    {
+      id: 10,
+      name: 'Lekompo Balcony Mix',
+      description: 'A web music mix platform.',
+      image: '/balconrny.png',
+      technologies: ['TypeScript', 'CSS', 'Others'],
+      github: 'https://github.com/Kopanomothlaka/lekompo-balcony-vibes-mix'
+    },
+    {
+      id: 11,
+      name: 'Lekompo Music Trend',
+      description: 'Music trend tracking platform.',
+      image: '/lekompotrend.png',
+      technologies: ['TypeScript', 'CSS', 'Others'],
+      github: 'https://github.com/Kopanomothlaka/Lekompo-Music-Trend'
+    },
+    {
+      id: 12,
+      name: 'BookSA Artists',
+      description: 'Artist booking platform for South African talent.',
+      image: '/booksa.png',
+      technologies: ['TypeScript', 'CSS', 'Others'],
+      github: 'https://github.com/Kopanomothlaka/SouthAfrican-Booking-artists'
+    },
+    {
+      id: 13,
+      name: 'Facebook Post Automation',
+      description: 'Tool for automating Facebook posts.',
+      image: '/fbauto.png',
+      technologies: ['HTML', 'CSS', 'Python'],
+      github: 'https://github.com/Kopanomothlaka/AutomateFacebookPosts'
+    },
+    {
+      id: 14,
+      name: 'EFF Cryptocurrency Coin Website',
+      description: 'Crypto token website representing EFF Coin.',
+      image: '/effcoin.png',
+      technologies: ['HTML', 'CSS', 'JavaScript', 'Rust'],
+      github: 'https://github.com/Kopanomothlaka/EFF-Token-Coin-Website'
+    },
+    {
+      id: 15,
+      name: 'University of Limpopo Digital Gallery',
+      description: 'A digital platform for student artwork and media.',
+      image: '/Screenshot 2024-09-10 212847.png',
+      technologies: ['Laravel', 'HTML', 'CSS', 'JavaScript', 'Blade', 'PHP'],
+      github: 'https://github.com/Kopanomothlaka/UL_Digital_Gallery'
+    },
+    {
+      id: 16,
+      name: 'Aviator Signals App',
+      description: 'Mobile app for Aviator signal alerts.',
+      images: ['/betway1.png', '/betway2.png', '/betway3.png', '/322127446-e2bdfc88-3f60-42d4-a65c-0f5a6cff947b.png'],
+      technologies: ['Android Studio', 'Java', 'XML', 'Firebase', 'Kotlin'],
+      github: 'https://github.com/Kopanomothlaka/Aviator-Signals-App'
+    },
+    {
+      id: 18,
+      name: '727fam Entertainment Website',
+      description: 'Entertainment and artist profile site.',
+      image: '/727fampicture.png',
+      technologies: ['HTML', 'CSS', 'JavaScript'],
+      github: 'https://github.com/Kopanomothlaka/727fam-entertainment-Website'
+    },
+    {
+      id: 20,
+      name: 'Virtual Router Machine',
+      description: 'Linux-based virtual router setup for internal networking.',
+      images: [
+        '/A realistic screenshot of a virtual router machine interface running on a virtual machine with Ubunt.jpeg',
+        '/A realistic screenshot of a virtual router machine interface running on a virtual machine with Ubunt(1).jpeg'
+      ],
+      technologies: ['Ubuntu', 'Networking Tools'],
+      github: 'https://github.com/Kopanomothlaka/Virtual-router-running-Ubuntu'
     }
   ];
 
@@ -79,11 +187,26 @@ const Portfolio = () => {
             {projects.map((project) => (
               <div key={project.id} className="group bg-white rounded-xl shadow-lg overflow-hidden hover:shadow-2xl transition-all duration-300 border border-gray-100">
                 <div className="relative overflow-hidden">
-                  <img
-                    src={project.image}
-                    alt={project.name}
-                    className="w-full h-64 object-cover group-hover:scale-105 transition-transform duration-300"
-                  />
+                  {project.images ? (
+                    <div className="w-full h-64 bg-white rounded-t-xl flex items-center justify-center overflow-hidden">
+                      <div className="flex w-full h-full gap-2 overflow-x-auto snap-x">
+                        {project.images.map((img, idx) => (
+                          <img
+                            key={idx}
+                            src={img}
+                            alt={project.name + ' screenshot ' + (idx + 1)}
+                            className="h-64 w-auto object-contain object-center bg-white rounded-t-xl snap-center"
+                          />
+                        ))}
+                      </div>
+                    </div>
+                  ) : (
+                    <img
+                      src={project.image}
+                      alt={project.name}
+                      className="w-full h-64 object-contain object-center bg-white rounded-t-xl group-hover:scale-105 transition-transform duration-300"
+                    />
+                  )}
                   <div className="absolute inset-0 bg-gradient-to-t from-black/50 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300" />
                 </div>
                 <div className="p-8">
@@ -103,15 +226,17 @@ const Portfolio = () => {
                       ))}
                     </div>
                   </div>
-
-                  <div className="border-t border-gray-100 pt-4">
-                    <div className="flex justify-between items-start">
-                      <div>
-                        <h4 className="text-sm font-semibold text-gray-900">{project.client}</h4>
-                        <p className="text-sm text-gray-600 italic">"{project.feedback}"</p>
-                      </div>
-                    </div>
-                  </div>
+                  <a
+                    href={project.github}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="inline-flex items-center gap-2 mt-2 px-4 py-2 bg-gray-900 text-white rounded-lg font-semibold shadow hover:bg-gray-800 transition-colors focus:outline-none focus:ring-2 focus:ring-blue-500 focus:ring-offset-2"
+                  >
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" className="w-5 h-5">
+                      <path d="M12 2C6.477 2 2 6.484 2 12.021c0 4.428 2.865 8.186 6.839 9.504.5.092.682-.217.682-.483 0-.237-.009-.868-.014-1.703-2.782.605-3.369-1.342-3.369-1.342-.454-1.157-1.11-1.465-1.11-1.465-.908-.62.069-.608.069-.608 1.004.07 1.532 1.032 1.532 1.032.892 1.53 2.341 1.089 2.91.833.092-.647.35-1.089.636-1.34-2.22-.253-4.555-1.113-4.555-4.951 0-1.093.39-1.987 1.029-2.687-.103-.253-.446-1.272.098-2.65 0 0 .84-.27 2.75 1.025A9.564 9.564 0 0 1 12 6.844c.85.004 1.705.115 2.504.337 1.909-1.295 2.748-1.025 2.748-1.025.546 1.378.202 2.397.1 2.65.64.7 1.028 1.594 1.028 2.687 0 3.847-2.338 4.695-4.566 4.944.359.309.678.92.678 1.855 0 1.338-.012 2.419-.012 2.749 0 .268.18.579.688.481C19.138 20.203 22 16.447 22 12.021 22 6.484 17.523 2 12 2z"/>
+                    </svg>
+                    View on GitHub
+                  </a>
                 </div>
               </div>
             ))}

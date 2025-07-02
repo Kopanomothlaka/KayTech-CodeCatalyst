@@ -1,4 +1,3 @@
-
 import { Link } from 'react-router-dom';
 import { ArrowDown } from 'lucide-react';
 import ServicesGrid from '../components/ServicesGrid';
@@ -6,22 +5,22 @@ import ServicesGrid from '../components/ServicesGrid';
 const Home = () => {
   const testimonials = [
     {
-      name: 'Sarah Johnson',
-      company: 'Digital Marketing Pro',
-      text: 'TechSolutions transformed our online presence completely. Their web development team delivered beyond our expectations.',
-      image: 'https://images.unsplash.com/photo-1494790108755-2616b612b786?w=100&h=100&fit=crop&crop=face'
+      name: 'Thabo Mokoena',
+      company: 'Cape Digital Solutions',
+      text: 'KayTech CodeCatalyst delivered a seamless web platform for our business. Their professionalism and expertise are unmatched in the industry.',
+      image: 'https://images.unsplash.com/photo-1517841905240-472988babdf9?w=100&h=100&fit=crop&crop=face'
     },
     {
-      name: 'Michael Chen',
-      company: 'StartupX',
-      text: 'The mobile app they built for us has increased our user engagement by 300%. Incredible work and ongoing support.',
-      image: 'https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?w=100&h=100&fit=crop&crop=face'
+      name: 'Zanele Khumalo',
+      company: 'Jozi Startups',
+      text: 'The mobile app they built for us has transformed our customer engagement. Highly recommended for any tech project in South Africa!',
+      image: 'https://images.unsplash.com/photo-1529626455594-4ff0802cfb7e?w=100&h=100&fit=crop&crop=face'
     },
     {
-      name: 'Emily Davis',
-      company: 'E-commerce Plus',
-      text: 'Their cloud solutions helped us scale effortlessly. The team is professional, responsive, and highly skilled.',
-      image: 'https://images.unsplash.com/photo-1438761681033-6461ffad8d80?w=100&h=100&fit=crop&crop=face'
+      name: 'Sipho Dlamini',
+      company: 'Durban Innovators',
+      text: 'Their cloud solutions helped us scale our operations efficiently. The team is responsive, skilled, and truly understands local business needs.',
+      image: 'https://images.unsplash.com/photo-1508214751196-bcfd4ca60f91?w=100&h=100&fit=crop&crop=face'
     }
   ];
 
@@ -101,38 +100,6 @@ const Home = () => {
             >
               View All Services
             </Link>
-          </div>
-        </div>
-      </section>
-
-      {/* Testimonials Section */}
-      <section className="py-20 bg-gray-50">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="text-center mb-16">
-            <h2 className="text-4xl md:text-5xl font-bold text-gray-900 mb-4">
-              What Our Clients Say
-            </h2>
-            <p className="text-xl text-gray-600">
-              Trusted by businesses worldwide
-            </p>
-          </div>
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
-            {testimonials.map((testimonial, index) => (
-              <div key={index} className="bg-white rounded-xl p-8 shadow-lg">
-                <p className="text-gray-600 mb-6 leading-relaxed">"{testimonial.text}"</p>
-                <div className="flex items-center">
-                  <img
-                    src={testimonial.image}
-                    alt={testimonial.name}
-                    className="w-12 h-12 rounded-full mr-4"
-                  />
-                  <div>
-                    <h4 className="font-semibold text-gray-900">{testimonial.name}</h4>
-                    <p className="text-sm text-gray-500">{testimonial.company}</p>
-                  </div>
-                </div>
-              </div>
-            ))}
           </div>
         </div>
       </section>

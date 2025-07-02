@@ -1,4 +1,3 @@
-
 import { Link } from 'react-router-dom';
 import { Youtube, Mail, Phone } from 'lucide-react';
 
@@ -11,9 +10,9 @@ const Footer = () => {
           <div className="col-span-1 md:col-span-2">
             <div className="flex items-center space-x-2 mb-4">
               <div className="w-8 h-8 bg-gradient-to-r from-blue-600 to-teal-500 rounded-lg flex items-center justify-center">
-                <span className="text-white font-bold text-sm">TS</span>
+                <span className="text-white font-bold text-sm">KC</span>
               </div>
-              <span className="text-xl font-bold">TechSolutions</span>
+              <span className="text-xl font-bold">KayTech CodeCatalyst</span>
             </div>
             <p className="text-gray-300 mb-6 text-sm leading-relaxed">
               We're a cutting-edge software development company providing innovative tech solutions 
@@ -24,7 +23,7 @@ const Footer = () => {
               <a href="#" className="text-gray-400 hover:text-white transition-colors">
                 <Youtube size={20} />
               </a>
-              <a href="mailto:info@techsolutions.com" className="text-gray-400 hover:text-white transition-colors">
+              <a href="mailto:info@kaytechcodecatalyst.com" className="text-gray-400 hover:text-white transition-colors">
                 <Mail size={20} />
               </a>
               <a href="tel:+1234567890" className="text-gray-400 hover:text-white transition-colors">
@@ -60,7 +59,7 @@ const Footer = () => {
 
         <div className="border-t border-gray-800 mt-8 pt-8 flex flex-col sm:flex-row justify-between items-center">
           <p className="text-gray-400 text-sm">
-            © 2024 TechSolutions. All rights reserved.
+            © 2024 KayTech CodeCatalyst. All rights reserved.
           </p>
           <div className="flex space-x-6 mt-4 sm:mt-0">
             <a href="#" className="text-gray-400 hover:text-white text-sm transition-colors">Privacy Policy</a>

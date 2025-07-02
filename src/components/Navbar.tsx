@@ -1,4 +1,3 @@
-
 import { useState } from 'react';
 import { Link, useLocation } from 'react-router-dom';
 import { Menu, X } from 'lucide-react';
@@ -23,9 +22,9 @@ const Navbar = () => {
         <div className="flex justify-between items-center h-16">
           <Link to="/" className="flex items-center space-x-2">
             <div className="w-8 h-8 bg-gradient-to-r from-blue-600 to-teal-500 rounded-lg flex items-center justify-center">
-              <span className="text-white font-bold text-sm">TS</span>
+              <span className="text-white font-bold text-sm">KC</span>
             </div>
-            <span className="text-xl font-bold text-gray-900">TechSolutions</span>
+            <span className="text-xl font-bold text-gray-900">KayTech CodeCatalyst</span>
           </Link>
 
           {/* Desktop Navigation */}
