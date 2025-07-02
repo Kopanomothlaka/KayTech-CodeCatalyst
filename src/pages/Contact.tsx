@@ -1,4 +1,3 @@
-
 import { useState } from 'react';
 import { Mail, Phone, Contact as ContactIcon } from 'lucide-react';
 
@@ -59,7 +58,7 @@ const Contact = () => {
                   </div>
                   <div>
                     <h3 className="font-semibold text-gray-900">Email</h3>
-                    <p className="text-gray-600">info@techsolutions.com</p>
+                    <p className="text-gray-600">kaytechcodecatalyst@outlook.com</p>
                   </div>
                 </div>
 
@@ -69,7 +68,7 @@ const Contact = () => {
                   </div>
                   <div>
                     <h3 className="font-semibold text-gray-900">Phone</h3>
-                    <p className="text-gray-600">+1 (555) 123-4567</p>
+                    <p className="text-gray-600">0796299439</p>
                   </div>
                 </div>
 
@@ -79,7 +78,7 @@ const Contact = () => {
                   </div>
                   <div>
                     <h3 className="font-semibold text-gray-900">Office</h3>
-                    <p className="text-gray-600">123 Tech Street, Innovation District</p>
+                    <p className="text-gray-600">233 Fox Street, Maboneng, Johannesburg</p>
                   </div>
                 </div>
               </div>
