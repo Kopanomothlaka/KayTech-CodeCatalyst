@@ -29,31 +29,49 @@ const Home = () => {
     <div className="min-h-screen">
       {/* Hero Section */}
       <section className="relative min-h-screen flex items-center justify-center bg-gradient-to-br from-gray-50 to-blue-50 pt-16">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
-          <div className="max-w-4xl mx-auto">
-            <h1 className="text-5xl md:text-7xl font-bold text-gray-900 mb-6 leading-tight">
-              Let's Build Your
-              <span className="block bg-gradient-to-r from-blue-600 to-teal-500 bg-clip-text text-transparent">
-                Next Big Thing
-              </span>
-            </h1>
-            <p className="text-xl md:text-2xl text-gray-600 mb-8 leading-relaxed max-w-3xl mx-auto">
-              We're a cutting-edge software development company providing innovative tech solutions 
-              to help businesses thrive in the digital age.
-            </p>
-            <div className="flex flex-col sm:flex-row gap-4 justify-center mb-12">
-              <Link
-                to="/contact"
-                className="bg-gradient-to-r from-blue-600 to-teal-500 text-white px-8 py-4 rounded-lg font-medium text-lg hover:shadow-xl transform hover:-translate-y-1 transition-all duration-300"
-              >
-                Start Your Project
-              </Link>
-              <Link
-                to="/portfolio"
-                className="border-2 border-gray-300 text-gray-700 px-8 py-4 rounded-lg font-medium text-lg hover:border-blue-500 hover:text-blue-600 transition-all duration-300"
-              >
-                View Our Work
-              </Link>
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+          <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
+            {/* Left Side - Content */}
+            <div className="text-center lg:text-left">
+              <h1 className="text-5xl md:text-7xl font-bold text-gray-900 mb-6 leading-tight">
+                Let's Build Your
+                <span className="block bg-gradient-to-r from-blue-600 to-teal-500 bg-clip-text text-transparent">
+                  Next Big Thing
+                </span>
+              </h1>
+              <p className="text-xl md:text-2xl text-gray-600 mb-8 leading-relaxed">
+                We're a cutting-edge software development company providing innovative tech solutions 
+                to help businesses thrive in the digital age.
+              </p>
+              <div className="flex flex-col sm:flex-row gap-4 justify-center lg:justify-start mb-12">
+                <Link
+                  to="/contact"
+                  className="bg-gradient-to-r from-blue-600 to-teal-500 text-white px-8 py-4 rounded-lg font-medium text-lg hover:shadow-xl transform hover:-translate-y-1 transition-all duration-300"
+                >
+                  Start Your Project
+                </Link>
+                <Link
+                  to="/portfolio"
+                  className="border-2 border-gray-300 text-gray-700 px-8 py-4 rounded-lg font-medium text-lg hover:border-blue-500 hover:text-blue-600 transition-all duration-300"
+                >
+                  View Our Work
+                </Link>
+              </div>
+            </div>
+
+            {/* Right Side - Image */}
+            <div className="relative">
+              <div className="relative rounded-2xl overflow-hidden shadow-2xl">
+                <img
+                  src="https://images.unsplash.com/photo-1461749280684-dccba630e2f6?w=600&h=400&fit=crop"
+                  alt="Software Development - Code on Monitor"
+                  className="w-full h-[400px] object-cover"
+                />
+                <div className="absolute inset-0 bg-gradient-to-t from-black/20 to-transparent"></div>
+              </div>
+              {/* Floating Elements */}
+              <div className="absolute -top-4 -right-4 w-20 h-20 bg-blue-500 rounded-full opacity-20 animate-pulse"></div>
+              <div className="absolute -bottom-4 -left-4 w-16 h-16 bg-teal-500 rounded-full opacity-20 animate-pulse delay-1000"></div>
             </div>
           </div>
         </div>
