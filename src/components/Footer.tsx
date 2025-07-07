@@ -12,7 +12,7 @@ const Footer = () => {
               <div className="w-8 h-8 bg-gradient-to-r from-blue-600 to-teal-500 rounded-lg flex items-center justify-center">
                 <span className="text-white font-bold text-sm">KC</span>
               </div>
-              <span className="text-xl font-bold">KayTech CodeCatalyst</span>
+              <span className="text-xl font-bold">KayTech</span>
             </div>
             <p className="text-gray-300 mb-6 text-sm leading-relaxed">
               We're a cutting-edge software development company providing innovative tech solutions 
@@ -59,7 +59,7 @@ const Footer = () => {
 
         <div className="border-t border-gray-800 mt-8 pt-8 flex flex-col sm:flex-row justify-between items-center">
           <p className="text-gray-400 text-sm">
-            © 2024 KayTech CodeCatalyst. All rights reserved.
+            © 2024 KayTech. All rights reserved.
           </p>
           <div className="flex space-x-6 mt-4 sm:mt-0">
             <a href="#" className="text-gray-400 hover:text-white text-sm transition-colors">Privacy Policy</a>

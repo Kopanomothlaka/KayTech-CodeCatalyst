@@ -7,7 +7,7 @@ const Home = () => {
     {
       name: 'Thabo Mokoena',
       company: 'Cape Digital Solutions',
-      text: 'KayTech CodeCatalyst delivered a seamless web platform for our business. Their professionalism and expertise are unmatched in the industry.',
+      text: 'KayTech delivered a seamless web platform for our business. Their professionalism and expertise are unmatched in the industry.',
       image: 'https://images.unsplash.com/photo-1517841905240-472988babdf9?w=100&h=100&fit=crop&crop=face'
     },
     {
