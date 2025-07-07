@@ -68,7 +68,7 @@ const Contact = () => {
                   </div>
                   <div>
                     <h3 className="font-semibold text-gray-900">Phone</h3>
-                    <p className="text-gray-600">0796299439</p>
+                    <p className="text-gray-600">Call us: 079 6299439</p>
                   </div>
                 </div>
 
@@ -110,7 +110,7 @@ const Contact = () => {
                       value={formData.name}
                       onChange={handleChange}
                       className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-transparent transition-colors"
-                      placeholder="Your full name"
+                      placeholder="Full name"
                     />
                   </div>
                   <div>
@@ -158,11 +158,13 @@ const Contact = () => {
                     >
                       <option value="">Select a service</option>
                       <option value="web-design">Web Design</option>
+                      <option value="web-design">Web Development</option>
+                      <option value="web-design">Web Planning</option>
                       <option value="web-development">Web Development</option>
                       <option value="app-design">App Design</option>
                       <option value="app-development">App Development</option>
                       <option value="cloud-solutions">Cloud Solutions</option>
-                      <option value="data-analytics">Data Analytics & BI</option>
+                      <option value="data-analytics">Data Analytics & Power BI</option>
                       <option value="training-support">Training & Support</option>
                       <option value="ux-ui-design">UX/UI Design</option>
                       <option value="drone-hire">Drone Hire</option>
