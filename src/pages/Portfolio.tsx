@@ -196,6 +196,9 @@ const Portfolio = () => {
                             src={img}
                             alt={project.name + ' screenshot ' + (idx + 1)}
                             className="h-64 w-auto object-contain object-center bg-white rounded-t-xl snap-center"
+                            loading="lazy"
+                            width={320}
+                            height={256}
                           />
                         ))}
                       </div>
@@ -205,6 +208,9 @@ const Portfolio = () => {
                       src={project.image}
                       alt={project.name}
                       className="w-full h-64 object-contain object-center bg-white rounded-t-xl group-hover:scale-105 transition-transform duration-300"
+                      loading="lazy"
+                      width={320}
+                      height={256}
                     />
                   )}
                   <div className="absolute inset-0 bg-gradient-to-t from-black/50 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300" />
