@@ -28,6 +28,8 @@ const Home = () => {
     <div className="min-h-screen">
       {/* Hero Section */}
       <section className="relative min-h-screen flex items-center justify-center bg-gradient-to-br from-gray-50 to-blue-50 pt-16">
+        {/* Animated Gradient Background */}
+        <div className="absolute inset-0 -z-10 animate-gradient bg-gradient-to-br from-blue-400 via-teal-300 to-purple-400 opacity-80" />
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
             {/* Left Side - Content */}
