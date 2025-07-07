@@ -263,7 +263,7 @@ const Portfolio = () => {
           </div>
           <div className="grid grid-cols-2 md:grid-cols-4 gap-8">
             {[
-              { number: '150+', label: 'Projects Completed' },
+              { number: '50', label: 'Projects Completed' },
               { number: '98%', label: 'Client Satisfaction' },
               { number: '50+', label: 'Happy Clients' },
               { number: '24/7', label: 'Support Available' }
